@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-home {
+  margin-bottom: 20px;
+}
+
+.header-home h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header-home p {
+  font-size: 18px;
+  color: #555;
+}
+
+.credits {
+  text-align: center; /* Center the credits text */
+  position: fixed; /* Fix position */
+  bottom: 0; /* Align to the bottom of the viewport */
+  left: 0; /* Align to the left */
+  width: 100%; /* Take full width */
+  background-color: white; /* Optional: background color */
+  padding: 10px 0; /* Padding for spacing */
+  border-top: 1px solid #ccc; /* Optional: border above credits */
+}
+
+.food-image {
+  margin: 20px 0; /* Margin above and below the image */
+}
+
+.food-image img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: rounded corners */
+}

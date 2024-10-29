@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-menu {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 16px; /* Adjust the gap between cards as needed */
+  padding: 16px;
+
+}
+
+.item-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.item-details {
+  margin-bottom: 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.item-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.btn-minus,
+.btn-plus {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-minus:hover,
+.btn-plus:hover {
+  background-color: #0056b3;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.cart {
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 26%;
+  margin-right: 26%;
+}
+
+.cart-items {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.cart-items li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.btn-checkout {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-checkout:hover {
+  background-color: #218838;
+}
+
+.btn-green {
+  background-color: green; /* Change this color to any shade of green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  background-color: darkgreen; /* Change this color for hover effect */
+}
+

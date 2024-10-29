@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+.profile-details {
+  /* margin-bottom: 20px; */
+  margin: 40px;
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.order-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-details p {
+  margin: 5px 0;
+}
+
+.order-details p strong {
+  font-weight: bold;
+}
+
+.btn-minus,
+.btn-plus {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-minus:hover,
+.btn-plus:hover {
+  background-color: #0056b3;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.btn-checkout {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-checkout:hover {
+  background-color: #218838;
+}
