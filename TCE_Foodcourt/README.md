@@ -21,15 +21,19 @@ This project provides a robust and efficient solution for food ordering operatio
 To set up the project on your local machine:
 
 1. Clone the repository:
+   
     https://github.com/VishwajithVinodkumar/TCE_FC-.git
 
 2. Install dependencies:
+
     npm install
 
 3. Set up environment variables:
+
     Database URI for MongoDB
 
 4. Start the development server:
+
     npm run dev
 
 5. Open http://localhost:3000 in your browser to start exploring the app.
