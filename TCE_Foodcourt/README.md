@@ -39,10 +39,14 @@ To set up the project on your local machine:
 5. Open http://localhost:3000 in your browser to start exploring the app.
 
 # Technologies Used
+
 MongoDB for storing user menu data.
+
 Express.js for server-side handling.
+
 React for building an interactive UI.
+
 Node.js as the backend runtime.
 
-Author
+# Author
 Created by Vishwajith V
