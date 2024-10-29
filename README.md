@@ -62,4 +62,4 @@ To set up the project on your local machine:
 
 ## Author
 
-Created by Vishwajith V
+Created by VishwajithVinodkumar
