@@ -2,15 +2,15 @@
 This project is a comprehensive Food Court Ordering System for TCE built using the MERN stack (MongoDB, Express, React, Node.js). It includes the following key features:
 
 # Features: 
--- **User Registration**: Members create accounts to access the platform.
--- **User Login**: Secure access for registered users to track their progress.
--- **Order Cart with Redux**: A dynamic order cart managed using Redux for efficient state management.
--- **Authentication**: Custom authentication implemented with Context API for a seamless user experience.
--- **Home page**: Displays the college identity and developer identity
--- **Menu page**: Shows South Indian specifically madurai based dishes in menu with their picing and description.
--- **Live Ordering with Sockets**: Real-time order updates and notifications using WebSockets.
--- **Profile Page**: Customer can view their orders which are been checkedout.
--- **Logout**: A button for logout is been enabled.
+- **User Registration**: Members create accounts to access the platform.
+- **User Login**: Secure access for registered users to track their progress.
+- **Order Cart with Redux**: A dynamic order cart managed using Redux for efficient state management.
+- **Authentication**: Custom authentication implemented with Context API for a seamless user experience.
+- **Home page**: Displays the college identity and developer identity
+- **Menu page**: Shows South Indian specifically madurai based dishes in menu with their picing and description.
+- **Live Ordering with Sockets**: Real-time order updates and notifications using WebSockets.
+- **Profile Page**: Customer can view their orders which are been checkedout.
+- **Logout**: A button for logout is been enabled.
 
 This project provides a robust and efficient solution for food ordering operations, enhancing easier service.
 
