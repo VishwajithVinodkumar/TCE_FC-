@@ -14,10 +14,10 @@ Logout: A button for logout is been enabled.
 
 This project provides a robust and efficient solution for food ordering operations, enhancing easier service.
 
-Project Status
+# Project Status
 🚧 Currently in Development 🚧
 
-Running the App Locally
+# Running the App Locally
 To set up the project on your local machine:
 
 Clone the repository:
@@ -35,9 +35,11 @@ Start the development server:
 npm run dev
 Open http://localhost:3000 in your browser to start exploring the app.
 
-Technologies Used
+# Technologies Used
 MongoDB for storing user menu data.
 Express.js for server-side handling.
 React for building an interactive UI.
 Node.js as the backend runtime.
 
+Author
+Created by Vishwajith V
